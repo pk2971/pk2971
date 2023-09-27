@@ -26,9 +26,11 @@ Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and t
 - Utilized Python (BeautifulSoup) to collect 10,000+ school/university contacts from various online sources, effectively generating group sales leads for a WNBA game.
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
+## Computational analysis of Gender Perception in the UK Parliament (Python) - Web scraping, NLP 
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+- Analyzed a large dataset of AirBNB’s listings in NYC, processed over 70 features and performed exploratory data analysis(EDA) to identify patterns and insights.
+- Built multiple regression models using Python to predict prices based on the patterns and measured their accuracy using RMSE and R^2.
+- Optimized the best performing model (XGBoost) using BayesianOptimizer and achieved a 2% boost in accuracy.
 
 
 ### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
