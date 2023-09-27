@@ -3,7 +3,7 @@
 #### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
 ## Education						       		
-- M.S., Data Science	| Rochester Institute of Technology (_August 2021-December 2023_)	 			        		
+- MS, Data Science	| Rochester Institute of Technology (_August 2021-December 2023_)	 			        		
 
 ## Work Experience
 **Ticket Data Science/Analytics Intern @ BSE Global/Brooklyn Nets (_May 2023 - August 2023_)**
