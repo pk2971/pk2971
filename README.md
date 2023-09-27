@@ -9,6 +9,7 @@
 ## Ticket Data Science/Analytics Intern @ BSE Global/Brooklyn Nets (_May 2023 - August 2023_)
 
 Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and the Barclays Center.
+
 **Fan Retention Model**
 - Analyzed  Brooklyn Nets’s full season membership holders metrics to enable **segmentation** and targeted marketing efforts.
 - Employed **PostgreSQL** to merge from various tables and preprocessed it to enable modeling.
@@ -28,22 +29,27 @@ Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and t
 ## Projects
 ## Computational analysis of Gender Perception in the UK Parliament (Python) - Web scraping, NLP 
 
+- Developed a web scraping script to extract 4GB of text data from British parliament sittings  using BeautifulSoup.
+- Conducted an analysis of gender representation by computing the ratio of male to female pronouns across 50 year intervals.
+- Visualized the findings using a matplotlib graph, showcasing the trends in male and female pronoun usage over time.
+- Utilized unsupervised FastText modeling on data from each 50 year interval to identify K-nearest neighbors for gender terms.
+- Generated a word cloud using the nearest neighbors and their respective weights, providing insight into changes in language.
+
+## Visualization/Predicting Prices of AirBNB listings in New York city (Python) –Regression
 - Analyzed a large dataset of AirBNB’s listings in NYC, processed over 70 features and performed exploratory data analysis(EDA) to identify patterns and insights.
 - Built multiple regression models using Python to predict prices based on the patterns and measured their accuracy using RMSE and R^2.
 - Optimized the best performing model (XGBoost) using BayesianOptimizer and achieved a 2% boost in accuracy.
 
+  ## Customer Lifetime Value Analysis and Prediction (K-Means and XGBoost) (Python) – Clustering, Customer Segmentation
+- Analyzed customer lifetime and expenditure metrics to enable segmentation and targeted marketing efforts.
+- Applied KMeans to assign Recency, Frequency and Monetary scores and visualized the results  using Matplotlib.
+- Developed a model to predict customer lifetime value (LTV) score with 88% accuracy using XGBoost.
 
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
+  ## Twitter Data Analysis (R Language, Tableau) –Sentiment Mining
+- Sourced and cleaned a data set for 2000 tweets of a global cosmetics company to perform sentiment analysis.
+- Used Afinn, syuzhet packages to assign sentiment scores to the text data and visualized sentiment trends over time using Tableau.
+- Developed wordcloud to identify the most frequently used words for the company’s cosmetic products available online.
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
 
-
-## Talks & Lectures
-- Causality: The new science of an old question - GSP Seminar, Fall 2021
-- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
-- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
-- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
-- Weeks of Welcome Poster Competition - UTD, Fall 2019
-- A Brief Introduction to Networks - GSP Seminar, Spring 2019
 
 
