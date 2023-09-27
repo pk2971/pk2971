@@ -7,7 +7,7 @@
 
 ## Work Experience
 **Ticket Data Science/Analytics Intern @ BSE Global/Brooklyn Nets (_May 2023 - August 2023_)**
-#### *Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and the Barclays Center.* 
+Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and the Barclays Center.
 ### Fan Retention Model
 - Analyzed  Brooklyn Nets’s full season membership holders metrics to enable segmentation and targeted marketing efforts.
 - Employed PostgreSQL to merge from various tables and preprocessed it to enable modeling.
