@@ -3,11 +3,11 @@
 #### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
 ## Education						       		
-- MS, Data Science	| Rochester Institute of Technology (_August 2021-December 2023_)	 			        		
+- MS,Data Science	| Rochester Institute of Technology (_August 2021-December 2023_)	 			        		
 
 ## Work Experience
 **Ticket Data Science/Analytics Intern @ BSE Global/Brooklyn Nets (_May 2023 - August 2023_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
+- Uncovered and *corrected* missing step in production data pipeline which impacted over 70% of active accounts
 - Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
 
 **Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
