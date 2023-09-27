@@ -1,4 +1,4 @@
-# Data Scientist
+# Data Science Portfolio
 
 #### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
@@ -6,18 +6,22 @@
 - MS,Data Science - Rochester Institute of Technology (_August 2021-December 2023_)	 			        		
 
 ## Work Experience
-**Ticket Data Science/Analytics Intern @ BSE Global/Brooklyn Nets (_May 2023 - August 2023_)**
-Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and the Barclays Center.
-### Fan Retention Model
-- Analyzed  Brooklyn Nets’s full season membership holders metrics to enable segmentation and targeted marketing efforts.
-- Employed PostgreSQL to merge from various tables and preprocessed it to enable modeling.
-- Developed a fan retention model in Python, leveraging Supervised classifiers (KNeighbors, DecisionTree,GradientBoosting).
-- Optimized model performance through strategic hyperparameter tuning. 
+## Ticket Data Science/Analytics Intern @ BSE Global/Brooklyn Nets (_May 2023 - August 2023_)
+**Fan Retention Model**
+- Analyzed  Brooklyn Nets’s full season membership holders metrics to enable **segmentation** and targeted marketing efforts.
+- Employed **PostgreSQL** to merge from various tables and preprocessed it to enable modeling.
+- Developed a fan retention model in **Python**, leveraging Supervised classifiers **(Lasso)**.
+- Optimized model performance through strategic **hyperparameter tuning**.
 
+ **Revenue and Tickets Sold Dashboards (PostgreSQL, Tableau):**
+- Developed PostgreSQL scripts for data extraction and integration in Tableau.
+- Facilitated an accurate automated daily revenue and ticket sales visualization by sales representatives. 
+- Partnered with the ticket operations team to create an interactive Tableau dashboard for real-time tracking and reporting of daily and weekly ticket sales, categorized by membership type.
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+**Other projects:**
+- Extracted and integrated multi-year customer membership data using PostgreSQL and MS Excel.
+- Assigned tenure scoring based on renewal frequency and calculated tenure-driven membership discounts which improved the renewal rate by 30%.
+- Utilized Python (BeautifulSoup) to collect 10,000+ school/university contacts from various online sources, effectively generating group sales leads for a WNBA game.
 
 ## Projects
 ### Data-Driven EEG Band Discovery with Decision Trees
