@@ -35,6 +35,8 @@ Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and t
 - Utilized unsupervised FastText modeling on data from each 50 year interval to identify K-nearest neighbors for gender terms.
 - Generated a word cloud using the nearest neighbors and their respective weights, providing insight into changes in language.
 
+![Tokens over the Years(/assets/img/tokens.png)
+
 ## Visualization/Predicting Prices of AirBNB listings in New York city (Python) –Regression
 - Analyzed a large dataset of AirBNB’s listings in NYC, processed over 70 features and performed exploratory data analysis(EDA) to identify patterns and insights.
 - Built multiple regression models using Python to predict prices based on the patterns and measured their accuracy using RMSE and R^2.
