@@ -7,8 +7,13 @@
 
 ## Work Experience
 **Ticket Data Science/Analytics Intern @ BSE Global/Brooklyn Nets (_May 2023 - August 2023_)**
-- Uncovered and *corrected* missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+#### *Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and the Barclays Center.* 
+### Fan Retention Model
+- Analyzed  Brooklyn Nets’s full season membership holders metrics to enable segmentation and targeted marketing efforts.
+- Employed PostgreSQL to merge from various tables and preprocessed it to enable modeling.
+- Developed a fan retention model in Python, leveraging Supervised classifiers (KNeighbors, DecisionTree,GradientBoosting).
+- Optimized model performance through strategic hyperparameter tuning. 
+
 
 **Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
 - Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
