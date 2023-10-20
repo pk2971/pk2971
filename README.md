@@ -42,16 +42,16 @@ Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and t
   <img src='img/tokens.png' height='200' width='400'/> <img src='img/pronoun_counts.png' height='200' width='400'/>
   <p align="center">
   <img src='img/1918-1927.png' height='300' width='500'/>
-</p>
+  </p>
 
 ## Customer Lifetime Value Analysis and Prediction (K-Means and XGBoost) (Python) – Clustering, Customer Segmentation, CRM Analytics
 - Analyzed customer lifetime and expenditure metrics to enable segmentation and targeted marketing efforts.
 - Applied KMeans to assign Recency, Frequency and Monetary scores and visualized the results  using Matplotlib.
 - Developed a model to predict customer lifetime value (LTV) score with 88% accuracy using XGBoost.
  <img src='img/CLTV1.png' height='250' width='400'/> <img src='img/CLTV2.png' height='250' width='400'/>
-<p align="center">
- <img src='img/CLTV3.png' height='250' width='500'/>
-</p>
+  <p align="center">
+   <img src='img/CLTV3.png' height='250' width='500'/>
+  </p>
 
 # [Temperature Prediction using Air Quality using LSTM and Conv1D, Multivariate Time Series Forecasting-Python](https://github.com/pk2971/Air-Quality-vs-Temperature-time-series)
 
@@ -59,9 +59,9 @@ Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and t
 - Cleaned a data set of 9000+ rows and prepared it to enable time series forecasting.
 - Trained the data set on Conv1D and LSTM models and achieved high accuracy.
 - Graphed the predicted vs. actual values of both data sets.
-<img src='img/timeseries.png' height='250' width='400'/>
+  <img src='img/timeseries.png' height='250' width='400'/>
 
-<img src='img/timeseries1.png' height='250' width='400'/>
+  <img src='img/timeseries1.png' height='250' width='400'/>
 
 ## [COVID-19 Image Classifier using VGG16-Python](https://github.com/pk2971/COVID-19-Image-Classification)
 
@@ -70,7 +70,7 @@ Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and t
 - Used transfer learning on a CNN trained VGG16, which created time efficient and solid results.
 - Predicted if the lung is effected by COVID-19 with 99% accuracy (from a new image).
   
- <img src='img/lung.jpeg' height='250' width='400'/>
+   <img src='img/lung.jpeg' height='250' width='400'/>
 
 
 ## Visualization/Predicting Prices of AirBNB listings in New York city (Python) –Regression
