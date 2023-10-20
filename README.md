@@ -40,15 +40,33 @@ Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and t
 - Trained a GPT-3 model over chunks of data to study the change in the gender perception over the years.
 
   <img src='img/tokens.png' height='200' width='400'/> <img src='img/pronoun_counts.png' height='200' width='400'/>
+  <p align="center">
   <img src='img/1918-1927.png' height='300' width='500'/>
+</p>
 
 ## Customer Lifetime Value Analysis and Prediction (K-Means and XGBoost) (Python) – Clustering, Customer Segmentation, CRM Analytics
 - Analyzed customer lifetime and expenditure metrics to enable segmentation and targeted marketing efforts.
 - Applied KMeans to assign Recency, Frequency and Monetary scores and visualized the results  using Matplotlib.
 - Developed a model to predict customer lifetime value (LTV) score with 88% accuracy using XGBoost.
- <img src='img/CLTV1.png' height='200' width='400'/> <img src='img/CLTV2.png' height='200' width='400'/><img src='img/CLTV3.png' height='200' width='500'/>
+ <img src='img/CLTV1.png' height='250' width='400'/> <img src='img/CLTV2.png' height='250' width='400'/>
+<p align="center">
+ <img src='img/CLTV3.png' height='250' width='500'/>
+</p>
 
+# [Temperature Prediction using Air Quality using LSTM and Conv1D, Multivariate Time Series Forecasting-Python](https://github.com/pk2971/Air-Quality-vs-Temperature-time-series)
 
+- Built a time series forcasting model to predict the atmospheric temperature at a given time of the day based off on the pollutant concentrations in the atmosphere.
+- Cleaned a data set of 9000+ rows and prepared it to enable time series forecasting.
+- Trained the data set on Conv1D and LSTM models and achieved high accuracy.
+- Graphed the predicted vs. actual values of both data sets.
+<img src='img/timeseries.png' height='250' width='400'/>
+```
+test_predictions = model1.predict(X_test1).flatten()
+test_results = pd.DataFrame(data={'Test Predictions':test_predictions, 'Actuals':y_test1})
+plt.plot(test_results['Test Predictions'][0:100])
+plt.plot(test_results['Actuals'][0:100])
+```
+<img src='img/timeseries1.png' height='250' width='400'/>
 ## Visualization/Predicting Prices of AirBNB listings in New York city (Python) –Regression
 - Analyzed a large dataset of AirBNB’s listings in NYC, processed over 70 features and performed exploratory data analysis(EDA) to identify patterns and insights.
 - Built multiple regression models using Python to predict prices based on the patterns and measured their accuracy using RMSE and R^2.
