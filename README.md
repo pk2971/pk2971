@@ -2,10 +2,10 @@
 
 #### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
-## Education						       		
+# Education						       		
 - MS,Data Science - Rochester Institute of Technology (_August 2021-December 2023_)	 			        		
 
-## Work Experience
+# Work Experience
 ## Ticket Data Science/Analytics Intern @ BSE Global/Brooklyn Nets (_May 2023 - August 2023_)
 
 Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and the Barclays Center.
@@ -29,7 +29,7 @@ Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and t
    <img src='img/nets.jpeg' height ='200' width='250'/> <img src='img/liberty.png' height ='200' width='250'/>
 
 
-## Projects
+# Projects
 ## Computational analysis of Gender Perception in the UK Parliament (Python) - Web scraping, NLP 
 
 - Developed a web scraping script to perform data mining of 4GB of text data from British parliament sittings  using BeautifulSoup.
