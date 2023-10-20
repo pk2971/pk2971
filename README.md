@@ -60,16 +60,10 @@ Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and t
 - Trained the data set on Conv1D and LSTM models and achieved high accuracy.
 - Graphed the predicted vs. actual values of both data sets.
 <img src='img/timeseries.png' height='250' width='400'/>
-```
-test_predictions = model1.predict(X_test1).flatten()
-test_results = pd.DataFrame(data={'Test Predictions':test_predictions, 'Actuals':y_test1})
-plt.plot(test_results['Test Predictions'][0:100])
-plt.plot(test_results['Actuals'][0:100])
 
-```
 <img src='img/timeseries1.png' height='250' width='400'/>
 
-# [COVID-19 Image Classifier using VGG16-Python](https://github.com/pk2971/COVID-19-Image-Classification)
+## [COVID-19 Image Classifier using VGG16-Python](https://github.com/pk2971/COVID-19-Image-Classification)
 
 - Built a classifier to identify if a lung is effected by COVID-19 based on scan images.
 - Used an ImageGenerator to scale images so that they can be efficiently used by the model.
