@@ -60,12 +60,12 @@ Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and t
 - Trained the data set on Conv1D and LSTM models and achieved high accuracy.
 - Graphed the predicted vs. actual values of both data sets.
 <img src='img/timeseries.png' height='250' width='400'/>
-
 ```
 test_predictions = model1.predict(X_test1).flatten()
 test_results = pd.DataFrame(data={'Test Predictions':test_predictions, 'Actuals':y_test1})
 plt.plot(test_results['Test Predictions'][0:100])
 plt.plot(test_results['Actuals'][0:100])
+
 ```
 <img src='img/timeseries1.png' height='250' width='400'/>
 
@@ -75,19 +75,8 @@ plt.plot(test_results['Actuals'][0:100])
 - Used an ImageGenerator to scale images so that they can be efficiently used by the model.
 - Used transfer learning on a CNN trained VGG16, which created time efficient and solid results.
 - Predicted if the lung is effected by COVID-19 with 99% accuracy (from a new image).
+  
  <img src='img/lung.jpeg' height='250' width='400'/>
-
-```
-import cv2
-img=cv2.imread('/content/ChestCOVID19.jpg')
-plt.imshow(img)
-resize=tf.image.resize(img,(150,150))
-plt.imshow(resize.numpy().astype(int))
-yhat=model.predict(np.expand_dims(resize/255,0))
-yhat
-array([[0.99022114, 0.00555698, 0.00422185]], dtype=float32)
-#Predicted with 99% probability that the lung is effected by Covid-19
-```
 
 
 ## Visualization/Predicting Prices of AirBNB listings in New York city (Python) –Regression
