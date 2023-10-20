@@ -1,5 +1,5 @@
-#title: Praharshita Kaithepalli
-#logo: /assets/img/headshot_circle.png
+title: Praharshita Kaithepalli
+logo: /assets/img/headshot.jpeg
 #description: text below image
 #show_downloads: true
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
