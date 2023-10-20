@@ -1,6 +1,6 @@
 # Data Science Portfolio
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Technical Skills: Python, SQL, Archtics, R, MATLAB
 
 # Education						       		
 - MS,Data Science - Rochester Institute of Technology (_August 2021-December 2023_)	 			        		
@@ -37,7 +37,8 @@ Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and t
 - Visualized the findings using a matplotlib graph, showcasing the trends in male and female pronoun usage over time.
 - Utilized unsupervised FastText modeling on data from each 50 year interval to identify K-nearest neighbors for gender terms.
 - Generated a word cloud using the nearest neighbors and their respective weights, providing insight into changes in language.
-- Trained a GPT model over chunks of data to study the change in the gender perception over the years.
+- Trained a GPT-3 model over chunks of data to study the change in the gender perception over the years.
+
   <img src='img/tokens.png' height='200' width='400'/> <img src='img/pronoun_counts.png' height='200' width='400'/>
   <img src='img/1918-1927.png' height='300' width='500'/>
 
