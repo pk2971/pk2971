@@ -6,6 +6,14 @@
 - MS,Data Science - Rochester Institute of Technology (_August 2021-December 2023_)	 			        		
 
 # Work Experience
+## Applied Data Scientist @ Civis Analytics (_Feb 2024 - Oct 2024_)
+
+Analytics for non-profits.
+
+- Enhanced client-facing R Shiny dashboards by debugging issues in undocumented code, resolving data flow errors with NULL values, and optimizing data loading times to reduce latency. Gathered client feedback to refine solutions, ensuring accurate, responsive, and user-friendly visuals.
+- Enhanced data accessibility and reporting accuracy for a regional office of an international non-profit by collaborating with stakeholders to understand requirements and translating them into optimized ETL processes in Redshift-SQL, transforming raw Salesforce data into structured, actionable insights.
+- Saved 100% of manual reporting time by building an interactive Tableau dashboard for over 100 data points and implementing YAML workflows for automated daily data refresh, collaborating with stakeholders to align data structure with reporting needs and support customer-focused insights
+
 ## Ticket Data Science/Analytics Intern @ BSE Global/Brooklyn Nets (_May 2023 - August 2023_)
 
 Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and the Barclays Center.
