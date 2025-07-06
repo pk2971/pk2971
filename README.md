@@ -14,7 +14,7 @@ An original research project analyzing over 8GB of UK Parliament transcripts to 
 🔹 Skills: NLP, spaCy, TF-IDF, XML parsing, matplotlib  
 🔹 Outcome: Uncovered historical trends in gendered political discourse
 
-[📂 View Repo]([https://github.com/yourusername/parliament-nlp-analysis](https://github.com/pk2971/computational-gender-analysis)
+[📂 View Repo](https://github.com/pk2971/computational-gender-analysis)
 
 ---
 
