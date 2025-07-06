@@ -1,96 +1,75 @@
-# Praharshita Kaithepalli
+# Hi, I'm Praharshita Kaithepalli
 
-#### Technical Skills: Python, SQL, Archtics, R, MATLAB
+I'm a data scientist passionate about uncovering insights from messy data, building intuitive dashboards, and solving real-world problems using clean, production-ready analytics. I’ve worked with nonprofits, museums, and fast-growing startups, delivering forecasting models, donor trend dashboards, and scalable ETL solutions.
 
-# Education						       		
-- MS,Data Science - Rochester Institute of Technology (_August 2021-December 2023_)	 			        		
+---
 
-# Work Experience
-## Applied Data Scientist @ Civis Analytics (_Feb 2024 - Oct 2024_)
+## 📌 Featured Projects
 
-Analytics for non-profits.
+### Gendered Language in UK Parliament (1919–2024)
+> NLP • spaCy • XML parsing • TF-IDF • Historical text analysis
 
-- Enhanced client-facing R Shiny dashboards by debugging issues in undocumented code, resolving data flow errors with NULL values, and optimizing data loading times to reduce latency. Gathered client feedback to refine solutions, ensuring accurate, responsive, and user-friendly visuals.
-- Enhanced data accessibility and reporting accuracy for a regional office of an international non-profit by collaborating with stakeholders to understand requirements and translating them into optimized ETL processes in Redshift-SQL, transforming raw Salesforce data into structured, actionable insights.
-- Saved 100% of manual reporting time by building an interactive Tableau dashboard for over 100 data points and implementing YAML workflows for automated daily data refresh, collaborating with stakeholders to align data structure with reporting needs and support customer-focused insights
+An original research project analyzing over 8GB of UK Parliament transcripts to track gendered language over a century. Extracted male/female pronouns using spaCy with filters to exclude non-human references. Built visualizations of co-occurring terms and TF-IDF word importance over time. Developed GPT-based Q&A on speeches.
 
-## Ticket Data Science/Analytics Intern @ BSE Global/Brooklyn Nets (_May 2023 - August 2023_)
+🔹 Skills: NLP, spaCy, TF-IDF, XML parsing, matplotlib  
+🔹 Outcome: Uncovered historical trends in gendered political discourse
 
-Ticketing Analytics for NBA team Brooklyn Nets, WNBA team New York Liberty and the Barclays Center.
+[📂 View Repo]([https://github.com/yourusername/parliament-nlp-analysis](https://github.com/pk2971/computational-gender-analysis)
 
-**Fan Retention Model**
-- Analyzed  Brooklyn Nets’s full season membership holders metrics to enable **segmentation** and targeted marketing efforts.
-- Employed **PostgreSQL** to merge from various tables and preprocessed it to enable modeling.
-- Developed a fan retention model in **Python**, leveraging Supervised classifiers **(Lasso)**.
-- Optimized model performance through strategic **hyperparameter tuning**.
+---
 
- **Revenue and Tickets Sold Dashboards (PostgreSQL, Tableau):**
-- Developed PostgreSQL scripts for data extraction and integration in Tableau.
-- Facilitated an accurate automated daily revenue and ticket sales visualization by sales representatives. 
-- Partnered with the ticket operations team to create an interactive Tableau dashboard for real-time tracking and reporting of daily and weekly ticket sales, categorized by membership type.
+### Donor Analytics Dashboard (Client: U.S. Nonprofit)
+> Tableau • RedshiftSQL • KPI tracking • ETL
 
-**Other projects:**
-- Extracted and integrated multi-year customer membership data using PostgreSQL and MS Excel.
-- Assigned tenure scoring based on renewal frequency and calculated tenure-driven membership discounts which improved the renewal rate by 30%.
-- Utilized Python (BeautifulSoup) to collect 10,000+ school/university contacts from various online sources, effectively generating group sales leads for a WNBA game.
-  
-   <img src='img/nets.jpeg' height ='200' width='250'/> <img src='img/liberty.png' height ='200' width='250'/>
+Developed a comprehensive quarterly dashboard to track donor retention, donation types, and campaign effectiveness. Integrated RedshiftSQL queries into Tableau and reduced data refresh time by 65%. Helped the fundraising team make faster, data-informed decisions.
 
+🔹 Skills: SQL, Tableau, KPI design, stakeholder communication  
+🔹 Outcome: Improved campaign targeting and quarterly reporting efficiency
 
-# Projects
-## Computational analysis of Gender Perception in the UK Parliament (Python) - Web scraping, NLP 
+---
 
-- Developed a web scraping script to perform data mining of 4GB of text data from British parliament sittings  using BeautifulSoup.
-- Conducted an analysis of gender representation by computing the ratio of male to female pronouns across 50 year intervals.
-- Visualized the findings using a matplotlib graph, showcasing the trends in male and female pronoun usage over time.
-- Utilized unsupervised FastText modeling on data from each 50 year interval to identify K-nearest neighbors for gender terms.
-- Generated a word cloud using the nearest neighbors and their respective weights, providing insight into changes in language.
-- Trained a GPT-3 model over chunks of data to study the change in the gender perception over the years.
+### Museum Visitor Forecasting (via Civis Analytics)
+> Time Series Forecasting • ARIMA • Streamlit • SQL ETL
 
-  <img src='img/tokens.png' height='200' width='400'/> <img src='img/pronoun_counts.png' height='200' width='400'/>
-  <p align="center">
-  <img src='img/1918-1927.png' height='300' width='500'/>
-  </p>
+Built ARIMA-based time series models (20% MAPE) to forecast museum visitor attendance, enabling dynamic pricing and staffing strategies. Automated ETL pipeline using Python and RedshiftSQL, and deployed forecasts with an interactive Streamlit app.
 
-## Customer Lifetime Value Analysis and Prediction (K-Means and XGBoost) (Python) – Clustering, Customer Segmentation, CRM Analytics
-- Analyzed customer lifetime and expenditure metrics to enable segmentation and targeted marketing efforts.
-- Applied KMeans to assign Recency, Frequency and Monetary scores and visualized the results  using Matplotlib.
-- Developed a model to predict customer lifetime value (LTV) score with 88% accuracy using XGBoost.
- <img src='img/CLTV1.png' height='250' width='400'/> <img src='img/CLTV2.png' height='250' width='400'/>
-  <p align="center">
-   <img src='img/CLTV3.png' height='250' width='500'/>
-  </p>
+🔹 Skills: Python, ARIMA, SQL, Streamlit, data automation  
+🔹 Outcome: Enabled real-time planning and improved operational efficiency
 
-# [Temperature Prediction using Air Quality using LSTM and Conv1D, Multivariate Time Series Forecasting-Python](https://github.com/pk2971/Air-Quality-vs-Temperature-time-series)
+---
 
-- Built a time series forcasting model to predict the atmospheric temperature at a given time of the day based off on the pollutant concentrations in the atmosphere.
-- Cleaned a data set of 9000+ rows and prepared it to enable time series forecasting.
-- Trained the data set on Conv1D and LSTM models and achieved high accuracy.
-- Graphed the predicted vs. actual values of both data sets.
-  <img src='img/timeseries.png' height='250' width='400'/>
+###  ETL Automation for Multisource Data (Nonprofit Client)
+> Python • RedshiftSQL • Data Engineering
 
-  <img src='img/timeseries1.png' height='250' width='400'/>
+Designed and deployed a robust ETL pipeline integrating three different data sources for a nonprofit. Reduced data processing time by over 60%, improving data freshness and report accuracy.
 
-## [COVID-19 Image Classifier using VGG16-Python](https://github.com/pk2971/COVID-19-Image-Classification)
+🔹 Skills: ETL design, SQL, data validation, pipeline automation  
+🔹 Outcome: Streamlined analytics delivery with near real-time updates
 
-- Built a classifier to identify if a lung is effected by COVID-19 based on scan images.
-- Used an ImageGenerator to scale images so that they can be efficiently used by the model.
-- Used transfer learning on a CNN trained VGG16, which created time efficient and solid results.
-- Predicted if the lung is effected by COVID-19 with 99% accuracy (from a new image).
-  
-   <img src='img/lung.jpeg' height='250' width='400'/>
+---
+
+## 📌 Tech Stack
+
+**Languages & Tools**: Python, SQL, R, Tableau, RedshiftSQL, Streamlit, spaCy, ARIMA, scikit-learn, YAML, Git  
+**Core Focus Areas**: Forecasting • NLP • Dashboards • ETL Pipelines • Social Impact Analytics  
+**Soft Skills**: Client communication • Documentation • Working with legacy code • Cross-functional collaboration
+
+---
+
+## 🌱 Currently Exploring
+
+- Retrieval-augmented generation (RAG) on historical political corpora using LangChain  
+- Automating LinkedIn analytics via Python + Notion API  
+- More robust data storytelling and generative AI for social good
+
+---
+
+## 📌 Let's Connect
 
 
-## Visualization/Predicting Prices of AirBNB listings in New York city (Python) –Regression
-- Analyzed a large dataset of AirBNB’s listings in NYC, processed over 70 features and performed exploratory data analysis(EDA) to identify patterns and insights.
-- Built multiple regression models using Python to predict prices based on the patterns and measured their accuracy using RMSE and R^2.
-- Optimized the best performing model (XGBoost) using BayesianOptimizer and achieved a 2% boost in accuracy.
+---
 
-
-## Twitter Data Analysis (R Language, Tableau) –Sentiment Mining
-- Sourced and cleaned a data set for 2000 tweets of a global cosmetics company to perform sentiment analysis.
-- Used Afinn, syuzhet packages to assign sentiment scores to the text data and visualized sentiment trends over time using Tableau.
-- Developed wordcloud to identify the most frequently used words for the company’s cosmetic products available online.
+Thanks for stopping by! 🌟
 
 
 
