@@ -1,4 +1,4 @@
-# Data Science Portfolio
+# Praharshita Kaithepalli
 
 #### Technical Skills: Python, SQL, Archtics, R, MATLAB
 
