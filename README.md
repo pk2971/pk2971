@@ -6,8 +6,8 @@ I'm a data scientist passionate about uncovering insights from messy data, build
 
 ## 📌 Featured Projects
 
-### Gendered Language in UK Parliament (1919–2024)
-> NLP • spaCy • XML parsing • TF-IDF • Historical text analysis
+### Computational Analysis of Gender in the UK Parliament
+> NLP • spaCy • XML parsing • TF-IDF • Historical text analysis • RAG • LLM 
 
 An original research project analyzing over 8GB of UK Parliament transcripts to track gendered language over a century. Extracted male/female pronouns using spaCy with filters to exclude non-human references. Built visualizations of co-occurring terms and TF-IDF word importance over time. Developed GPT-based Q&A on speeches.
 
@@ -18,17 +18,17 @@ An original research project analyzing over 8GB of UK Parliament transcripts to 
 
 ---
 
-### Donor Analytics Dashboard (Client: U.S. Nonprofit)
+### Donor Analytics Dashboard (Client: U.S. Nonprofit via Civis Analytics)
 > Tableau • RedshiftSQL • KPI tracking • ETL
 
-Developed a comprehensive quarterly dashboard to track donor retention, donation types, and campaign effectiveness. Integrated RedshiftSQL queries into Tableau and reduced data refresh time by 65%. Helped the fundraising team make faster, data-informed decisions.
+Developed a comprehensive quarterly dashboard to track donor retention, donation types, and campaign effectiveness. Integrated PostgreSQL queries into Tableau and reduced data refresh time by 65%. Helped the fundraising team make faster, data-informed decisions.
 
 🔹 Skills: SQL, Tableau, KPI design, stakeholder communication  
 🔹 Outcome: Improved campaign targeting and quarterly reporting efficiency
 
 ---
 
-### Museum Visitor Forecasting (via Civis Analytics)
+### Museum Visitor Forecasting (Client:NYC based museum via Civis Analytics)
 > Time Series Forecasting • ARIMA • Streamlit • SQL ETL
 
 Built ARIMA-based time series models (20% MAPE) to forecast museum visitor attendance, enabling dynamic pricing and staffing strategies. Automated ETL pipeline using Python and RedshiftSQL, and deployed forecasts with an interactive Streamlit app.
@@ -38,7 +38,7 @@ Built ARIMA-based time series models (20% MAPE) to forecast museum visitor atten
 
 ---
 
-###  ETL Automation for Multisource Data (Nonprofit Client)
+###  ETL Automation for Multisource Data (Nonprofit Client via Civis Analytics)
 > Python • RedshiftSQL • Data Engineering
 
 Designed and deployed a robust ETL pipeline integrating three different data sources for a nonprofit. Reduced data processing time by over 60%, improving data freshness and report accuracy.
@@ -65,6 +65,8 @@ Designed and deployed a robust ETL pipeline integrating three different data sou
 ---
 
 ## 📌 Let's Connect
+[#Linkedin](https://www.linkedin.com/in/kspraharshita/)
+[#Email: kspraharshita.11@gmail.com](kspraharshita.11@gmail.com)
 
 
 ---
